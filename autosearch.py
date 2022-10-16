@@ -518,10 +518,3 @@ for i in range (0,500):
     directorinform=driver.find_element(By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[3]/div[1]/ul[2]/li[1]/p[3]/a[1]')
     print(lista[i]+" "+searchinform.text+" "+directorinform.text)
     driver.close()
-
-
-
-
-
-
-
